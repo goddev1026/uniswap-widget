@@ -36,7 +36,7 @@ function App() {
       <div>
         <button onClick={connectWallet}>Connect Wallet</button>
       </div>
-      <div className="Uniswap">
+      <div className="Uniswap widget">
         <SwapWidget 
         provider={account.provider}
         JsonRpcEndpoint={JsonRpcEndpoint} />
